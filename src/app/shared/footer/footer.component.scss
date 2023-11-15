@@ -1,0 +1,26 @@
+footer {
+  padding: 32px 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items: center;
+  background-color: black;
+  color:#fff;
+
+  .left-container img{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+
+  .left-container p {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+
+  .right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
