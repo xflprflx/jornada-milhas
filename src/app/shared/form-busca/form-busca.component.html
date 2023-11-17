@@ -54,7 +54,7 @@
       </div>
       <mat-form-field class="input-container" appearance="outline">
         <mat-label>Data de ida</mat-label>
-        <input matInput [matDatepicker]="ida" />
+        <input matInput [matDatepicker]="ida" formControlName="dataIda"/>
         <mat-datepicker-toggle
           matIconSuffix
           [for]="ida"
@@ -63,7 +63,7 @@
       </mat-form-field>
       <mat-form-field class="input-container" appearance="outline">
         <mat-label>Data da volta</mat-label>
-        <input matInput [matDatepicker]="volta" />
+        <input matInput [matDatepicker]="volta" formControlName="dataVolta"/>
         <mat-datepicker-toggle
           matIconSuffix
           [for]="volta"
